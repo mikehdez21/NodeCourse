@@ -1,0 +1,27 @@
+{
+  "name": "06_RealTimeChat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node --watch ./server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.10.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "dependencies": {
+    "dotenv": "17.4.2",
+    "express": "5.2.1",
+    "morgan": "1.11.0",
+    "mysql2": "3.23.1",
+    "socket.io": "4.8.3"
+  }
+}

@@ -19,5 +19,8 @@
   "type": "commonjs",
   "devDependencies": {
     "standard": "^17.1.2"
+  },
+  "dependencies": {
+    "db-local": "^3.1.0"
   }
 }
